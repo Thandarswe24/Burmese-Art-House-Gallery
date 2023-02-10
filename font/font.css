@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Shippori Mincho B1', serif;
+    src: url(../font/ShipporiMinchoB1/ShipporiMinchoB1-Regular.ttf);
+
+    font-family: 'Romeliosans-z8y7L';
+    src: url(../font/romelio-sans-font/Romeliosans-z8y7L.ttf);
+    
+    font-family:   "Romeliosans-jE1Dy" ;
+    src: url(../font/romelio-sans-font/Romeliosans-jE1Dy.otf);
+}
