@@ -27,6 +27,12 @@ for (var i = 0; i < elements.length; i++) {
   });
 }
   /* ======= Header===== */
+  (function() {
+    const heart = document.getElementById('heart');
+    heart.addEventListener('click', function() {
+      heart.classList.toggle('black');
+    });
+  })();
 
     /* ======= My Cart===== */
     function increaseValue() {
@@ -44,3 +50,28 @@ for (var i = 0; i < elements.length; i++) {
       document.getElementById('number').value = value;
     }
      /* ======= My Cart===== */
+
+    /*==============swiper js*==============*/
+    var swiper = new Swiper(".slide_container", {
+      slidesPerView: 1,
+      spaceBetween: 30,//
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+
+        },
+       
+      },
+    });
