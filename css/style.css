@@ -372,6 +372,7 @@
       }
       .banner_explore> svg {
         transform: translate(4px, -3px);
+        cursor: pointer;
       }
 
       #banner > .banner_wrapper > .banner_left > 
@@ -379,7 +380,8 @@
         display: inline-flex;
         flex-direction: column;
         gap: 3rem;
-        align-items: center
+        align-items: center;
+        cursor: pointer;
       }
 
       #banner > .banner_wrapper > .banner_left >
@@ -615,6 +617,9 @@
       justify-content: flex-end;
     }
 
+    .artwork_arrow2 ,.artwork_arrow {
+      cursor: pointer;
+    }
     /* ======Artwork========= */
   /* ==========Our Artists Page===========*/
   #our_artists{
@@ -640,6 +645,7 @@
     display: flex;
     justify-content: flex-start;
     max-width: 100px;
+    cursor: pointer;
   }
   #our_artists>.top>.top_title{
     font-family: var(--ff-third);
@@ -719,6 +725,7 @@
   .rating_wrapper>.rating_arrow{
     width: 100px;
     padding-top: 15px;
+    cursor: pointer;
   }
   .rating_wrapper>.rating_text{
     width: 581px;
@@ -801,7 +808,9 @@
     border-bottom: 1px solid #000; 
     text-align: center;
   }
-  
+  #heart{
+    cursor: pointer;
+  }
   #heart.black{
     fill: black;
     cursor: pointer;
@@ -829,6 +838,7 @@
 
 .gallery_inputs>p {
   margin-right: 47px;
+  cursor: pointer;
 }
 
 .gallery_buttons> .portrait_btn , .landscape_btn {
@@ -1051,6 +1061,7 @@
   display: flex;
   align-items: flex-start;
   margin-left: 7%;
+  cursor: pointer;
 }
 
 #about> .about_side_bar {
@@ -1059,6 +1070,7 @@
   transform: translate(10px, -543px);
   width: 100px;
   flex-direction: column;
+  cursor: pointer;
 }
 
 
@@ -1152,6 +1164,7 @@
 .history_arrow {
   display: flex;
     gap: 1rem;
+    cursor: pointer;
 }
 
 #history> .history_side_bar {
@@ -1160,6 +1173,7 @@
   transform: translate(10px, -543px);
   width: 100px;
   flex-direction: column;
+  cursor: pointer;
 }
 
 
@@ -1305,6 +1319,7 @@
     transform: translate(3px, -310px);
     width: 100px;
     flex-direction: column;
+    cursor: pointer;
 }
 
 
@@ -1334,6 +1349,7 @@
 .item_arrow{
   width: 100px;
   margin-block: 2rem;
+  cursor: pointer;
 }
 .item_img {
   width: 600px;
@@ -2204,6 +2220,7 @@ svg {
     margin-left: 10px;
     max-width: 50px;
     margin-top: 30%;
+    /* cursor: pointer; */
 }
 
   #our_artists>.top>.top_title {
